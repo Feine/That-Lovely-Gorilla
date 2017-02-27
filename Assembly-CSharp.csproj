@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{972FA359-DEAC-26F5-7F60-49D7BE0A88DB}</ProjectGuid>
+    <ProjectGuid>{30603FD7-F903-58DC-7259-23344F188527}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,6 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CloudLooping.cs" />
+     <Compile Include="Assets\PixelPerfect\Scripts\Internal\PixelPerfect.cs" />
+     <Compile Include="Assets\PixelPerfect\Scripts\Internal\PixelPerfectHSBColor.cs" />
+     <Compile Include="Assets\PixelPerfect\Scripts\Internal\PixelPerfectObject.cs" />
+     <Compile Include="Assets\PixelPerfect\Scripts\PixelPerfectCamera.cs" />
+     <Compile Include="Assets\PixelPerfect\Scripts\PixelPerfectSprite.cs" />
      <Compile Include="Assets\scripts\AnimationLoadManager.cs" />
      <Compile Include="Assets\scripts\EventPoints.cs" />
      <Compile Include="Assets\scripts\Gorilla States\GorillaEventData.cs" />
@@ -59,9 +65,13 @@
      <Compile Include="Assets\scripts\GorillaMovement.cs" />
      <Compile Include="Assets\scripts\HorizontalMovement.cs" />
      <Compile Include="Assets\scripts\InterestBar.cs" />
+     <Compile Include="Assets\scripts\RendererExtensions.cs" />
      <Compile Include="Assets\scripts\ReticleMovement.cs" />
      <Compile Include="Assets\scripts\Scoring.cs" />
+     <Compile Include="Assets\scripts\ScrollingScriptLoop.cs" />
      <Compile Include="Assets\scripts\Shutter.cs" />
+     <None Include="Assets\PixelPerfect\Scripts\Internal\Resources\PixelPerfectShader.shader" />
+     <None Include="Assets\PixelPerfect\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

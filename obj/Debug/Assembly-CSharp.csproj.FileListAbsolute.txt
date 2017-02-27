@@ -19,3 +19,32 @@ C:\Users\Jesse\Desktop\That Handsome Gorilla\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Users\Jesse\Desktop\That Handsome Gorilla\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\Jesse\Desktop\That Handsome Gorilla\obj\Debug\Assembly-CSharp.dll
 C:\Users\Jesse\Desktop\That Handsome Gorilla\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\obj\Debug\Assembly-CSharp.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Jesse\Desktop\That-Lovely-Gorilla\obj\Debug\Assembly-CSharp.pdb
