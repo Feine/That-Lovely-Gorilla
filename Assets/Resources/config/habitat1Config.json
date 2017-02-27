@@ -1,0 +1,84 @@
+[
+	{"name":"default", 
+		"links":[
+			{"next":"randomWalk", "weight":2},
+			{"next":"randomIdle", "weight":3},
+			{"next":"ufo","weight":3},
+			{"next":"RANDOM"}
+		]
+	},
+	{"name":"randomWalk",
+		"links":[
+			{"next":"walking all fours"},
+			{"next":"walking on two"}
+		]
+	},
+	{"anim":"walking all fours",
+		"targetPosition": "RANDOM",
+		"targetSpeed": "run",
+		"score": 2,
+		"links":[
+			{"next":"randomIdle", "weight":3},
+			{"next":"default", "weight":1}
+		]
+	},
+	{"anim":"walking on two",
+		"targetPosition": "RANDOM",
+		"targetSpeed": "walk",
+		"score": 1,
+		"links":[
+			{"next":"randomIdle", "weight":3},
+			{"next":"default", "weight":1}
+		]
+	},
+
+	{"name":"randomIdle",
+		"links":[
+			{"next":"idle sitting"},
+			{"next":"idle standing"},
+			{"next":"idle front facing"},
+			{"next":"idle standing looking"}
+		]
+	},
+	{"anim":"idle sitting",
+		"links":[
+			{"next":"REPEAT", "weight":1},
+			{"next":"randomIdle", "weight":1},
+			{"next":"default", "weight":2}
+		]
+	},
+	{"anim":"idle standing",
+		"links":[
+			{"next":"REPEAT", "weight":1},
+			{"next":"randomIdle", "weight":1},
+			{"next":"default", "weight":2}
+		]
+	},
+	{"anim":"idle front facing",
+		"links":[
+			{"next":"REPEAT", "weight":1},
+			{"next":"randomIdle", "weight":1},
+			{"next":"default", "weight":2}
+		]
+	},
+	{"anim":"idle standing looking",
+		"links":[
+			{"next":"REPEAT", "weight":1},
+			{"next":"randomIdle", "weight":1},
+			{"next":"default", "weight":2}
+		]
+	},
+
+	{
+		"name":"ufo",
+		"anim":"angry chest pound",
+		"score": 100,
+		"prefab":"prefabs/ufo",
+		"delay":6.5,
+		"links":[
+			{"next":"default"}
+		]
+	}
+
+
+]
