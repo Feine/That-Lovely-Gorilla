@@ -46,7 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\CameraFollow.cs" />
+=======
+>>>>>>> 850826ef495eca4c866a81160e95cd4833fe0c15
      <Compile Include="Assets\CloudLooping.cs" />
      <Compile Include="Assets\PixelPerfect\Scripts\Internal\PixelPerfect.cs" />
      <Compile Include="Assets\PixelPerfect\Scripts\Internal\PixelPerfectHSBColor.cs" />
