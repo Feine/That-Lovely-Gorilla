@@ -7,17 +7,17 @@ public class ReticleMovement : MonoBehaviour {
 	void FixedUpdate () 
 	{
 		// Horizontal movement and boundaries
-		if(Input.GetButton("Right") && transform.position.x < 1.272f)
+		if(Input.GetButton("Right") && transform.position.x < 2.28f)
 			transform.Translate (Input.GetAxisRaw ("Right") * speed, 0, 0);
 
-			if (transform.position.x > 1.272f)
-				transform.position = new Vector3 (1.272f, transform.position.y,-5f);
+			if (transform.position.x > 2.28f)
+				transform.position = new Vector3 (2.28f, transform.position.y,-5f);
 
-		if(Input.GetButton("Left") && transform.position.x > -1.272f)
+		if(Input.GetButton("Left") && transform.position.x > -2.28f)
 			transform.Translate (Input.GetAxisRaw ("Left") * speed, 0, 0);
 
-			if (transform.position.x < -1.272f)
-			transform.position = new Vector3 (-1.272f, transform.position.y,-5f);
+			if (transform.position.x < -2.28f)
+			transform.position = new Vector3 (-2.28f, transform.position.y,-5f);
 
 
 		// Vertical movement and boundaries
