@@ -24,7 +24,7 @@ public class GorillaHandlerMovement : GorillaEventLifecycle {
         switch (data.targetPosition)
         {
             case "RANDOM":
-                movementWaypoint = UnityEngine.Random.Range(-1f, 1f);
+                movementWaypoint = UnityEngine.Random.Range(-2.24f, 2.24f);
                 break;
             default:
                 throw new NotImplementedException("Unexpected waypoint: " + data.targetPosition);
@@ -34,10 +34,10 @@ public class GorillaHandlerMovement : GorillaEventLifecycle {
 
         switch (data.targetSpeed)
         {
-            case "run": speed = 0.2f;
+            case "run": speed = 0.3f;
                 break;
             case "walk":
-                speed = 0.1f;
+                speed = 0.2f;
                 break;
             default:
                 speed = 0.1f;

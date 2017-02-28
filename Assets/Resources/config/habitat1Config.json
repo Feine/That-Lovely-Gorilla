@@ -3,7 +3,6 @@
 		"links":[
 			{"next":"randomWalk", "weight":2},
 			{"next":"randomIdle", "weight":3},
-			{"next":"ufo","weight":3},
 			{"next":"RANDOM"}
 		]
 	},
@@ -34,49 +33,37 @@
 
 	{"name":"randomIdle",
 		"links":[
-			{"next":"idle sitting"},
 			{"next":"idle standing"},
-			{"next":"idle front facing"},
-			{"next":"idle standing looking"}
+			{"next":"idle sitting"}
 		]
 	},
 	{"anim":"idle sitting",
 		"links":[
 			{"next":"REPEAT", "weight":1},
-			{"next":"randomIdle", "weight":1},
-			{"next":"default", "weight":2}
+			{"next":"walking all fours", "weight":3 }
 		]
 	},
 	{"anim":"idle standing",
 		"links":[
 			{"next":"REPEAT", "weight":1},
-			{"next":"randomIdle", "weight":1},
-			{"next":"default", "weight":2}
+			{"next":"idle sitting", "weight":1},
+			{"next":"idle standing looking", "weight":1},
+			{"next":"default", "weight":1}
 		]
 	},
 	{"anim":"idle front facing",
 		"links":[
 			{"next":"REPEAT", "weight":1},
-			{"next":"randomIdle", "weight":1},
-			{"next":"default", "weight":2}
+			{"next":"randomWalk", "weight":2},
+			{"next":"default", "weight":1}
 		]
 	},
 	{"anim":"idle standing looking",
+	 "delay":2,
 		"links":[
-			{"next":"REPEAT", "weight":1},
-			{"next":"randomIdle", "weight":1},
-			{"next":"default", "weight":2}
-		]
-	},
-
-	{
-		"name":"ufo",
-		"anim":"angry chest pound",
-		"score": 100,
-		"prefab":"prefabs/ufo",
-		"delay":6.5,
-		"links":[
-			{"next":"default"}
+			{"next":"idle standing", "weight":2},
+			{"next":"randomWalk", "weight":2},
+			{"next":"default", "weight":1}
 		]
 	}
 

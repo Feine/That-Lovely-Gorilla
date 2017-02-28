@@ -17,16 +17,16 @@ public class CameraFollow : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		if (reticlePos.x > 0.5+edgePadding && this.transform.position.x < 1.0565f) 
+		if (reticlePos.x > 0.5+edgePadding && this.transform.position.x < 1.065f) 
 			transform.Translate (speed, 0, 0);
 		
-		if (reticlePos.x < 0.5-edgePadding && this.transform.position.x > -1.0565f) 
+		if (reticlePos.x < 0.5-edgePadding && this.transform.position.x > -1.065f) 
 			transform.Translate (-speed, 0, 0);
 
-		if (this.transform.position.x > 1.0565f)
-			transform.position = new Vector3 (1.0565f, 0, -10);
+		if (this.transform.position.x > 1.065f)
+			transform.position = new Vector3 (1.065f, 0, -10);
 
-		if (this.transform.position.x < -1.0565f)
-			transform.position = new Vector3 (-1.0565f, 0, -10);
+		if (this.transform.position.x < -1.065f)
+			transform.position = new Vector3 (-1.065f, 0, -10);
 	}
 }
