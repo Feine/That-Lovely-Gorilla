@@ -26,6 +26,7 @@ public class GorillaEventData {
     /// </summary>
     public string anim;
 
+	public bool flipSprite;
     /// <summary>
     /// If non-null, the prefab with this name should be cloned. The prototype may optionally contain a component which subclasses GorillaEventLifecycle to handle
     /// lifecycle events. Otherwise, the default behavior is to play the animationName for this event (if any) and then immediately transition to a new event.

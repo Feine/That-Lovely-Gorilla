@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 9805da09566c66c4cbc4b1ba5dd3ba7d
-timeCreated: 1488172121
+guid: 89f887ac7b44311418f19191e6afc125
+timeCreated: 1488318319
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: STAGE 1 - LAYER 1_0
-    21300002: STAGE 1 - LAYER 1_1
-    21300004: STAGE 1 - LAYER 1_2
-    21300006: STAGE 1 - LAYER 1_3
-    21300008: STAGE 1 - LAYER 1_4
-    21300010: STAGE 1 - LAYER 1_5
-    21300012: STAGE 1 - LAYER 1_6
-    21300014: STAGE 1 - LAYER 1_7
-    21300016: STAGE 1 - LAYER 1_8
-    21300018: STAGE 1 - LAYER 1_9
-    21300020: STAGE 1 - LAYER 1_10
-    21300022: STAGE 1 - LAYER 1_11
-    21300024: STAGE 1 - LAYER 1_12
-    21300026: STAGE 1 - LAYER 1_13
-    21300028: STAGE 1 - LAYER 1_14
-    21300030: STAGE 1 - LAYER 1_15
+    21300000: grass_0
+    21300002: grass_1
+    21300004: grass_2
+    21300006: grass_3
+    21300008: grass_4
+    21300010: grass_5
+    21300012: grass_6
+    21300014: grass_7
+    21300016: grass_8
+    21300018: grass_9
+    21300020: grass_10
+    21300022: grass_11
+    21300024: grass_12
+    21300026: grass_13
+    21300028: grass_14
+    21300030: grass_15
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -94,7 +94,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_0
+      name: grass_0
       rect:
         serializedVersion: 2
         x: 8
@@ -107,7 +107,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_1
+      name: grass_1
       rect:
         serializedVersion: 2
         x: 8
@@ -120,7 +120,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_2
+      name: grass_2
       rect:
         serializedVersion: 2
         x: 8
@@ -133,7 +133,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_3
+      name: grass_3
       rect:
         serializedVersion: 2
         x: 8
@@ -146,7 +146,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_4
+      name: grass_4
       rect:
         serializedVersion: 2
         x: 8
@@ -159,7 +159,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_5
+      name: grass_5
       rect:
         serializedVersion: 2
         x: 8
@@ -172,7 +172,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_6
+      name: grass_6
       rect:
         serializedVersion: 2
         x: 8
@@ -185,7 +185,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_7
+      name: grass_7
       rect:
         serializedVersion: 2
         x: 8
@@ -198,7 +198,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_8
+      name: grass_8
       rect:
         serializedVersion: 2
         x: 8
@@ -211,7 +211,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_9
+      name: grass_9
       rect:
         serializedVersion: 2
         x: 8
@@ -224,7 +224,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_10
+      name: grass_10
       rect:
         serializedVersion: 2
         x: 8
@@ -237,7 +237,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_11
+      name: grass_11
       rect:
         serializedVersion: 2
         x: 8
@@ -250,20 +250,20 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_12
+      name: grass_12
       rect:
         serializedVersion: 2
         x: 8
-        y: 91
+        y: 90
         width: 480
-        height: 20
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_13
+      name: grass_13
       rect:
         serializedVersion: 2
         x: 8
@@ -276,7 +276,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_14
+      name: grass_14
       rect:
         serializedVersion: 2
         x: 8
@@ -289,7 +289,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: STAGE 1 - LAYER 1_15
+      name: grass_15
       rect:
         serializedVersion: 2
         x: 8

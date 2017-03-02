@@ -46,15 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraFollow.cs" />
-     <Compile Include="Assets\CloudLooping.cs" />
-     <Compile Include="Assets\GorillaArrows.cs" />
      <Compile Include="Assets\PixelPerfect\Scripts\Internal\PixelPerfect.cs" />
      <Compile Include="Assets\PixelPerfect\Scripts\Internal\PixelPerfectHSBColor.cs" />
      <Compile Include="Assets\PixelPerfect\Scripts\Internal\PixelPerfectObject.cs" />
      <Compile Include="Assets\PixelPerfect\Scripts\PixelPerfectCamera.cs" />
      <Compile Include="Assets\PixelPerfect\Scripts\PixelPerfectSprite.cs" />
      <Compile Include="Assets\scripts\AnimationLoadManager.cs" />
+     <Compile Include="Assets\scripts\CameraFollow.cs" />
+     <Compile Include="Assets\scripts\CloudLooping.cs" />
      <Compile Include="Assets\scripts\EventPoints.cs" />
      <Compile Include="Assets\scripts\Gorilla States\GorillaEventData.cs" />
      <Compile Include="Assets\scripts\Gorilla States\GorillaEventFSM.cs" />
@@ -64,13 +63,12 @@
      <Compile Include="Assets\scripts\Gorilla States\GorillaHandlerMovement.cs" />
      <Compile Include="Assets\scripts\Gorilla States\GorillaHandlerPrefab.cs" />
      <Compile Include="Assets\scripts\Gorilla States\GorillaHandlerScore.cs" />
+     <Compile Include="Assets\scripts\GorillaArrows.cs" />
      <Compile Include="Assets\scripts\GorillaMovement.cs" />
      <Compile Include="Assets\scripts\HorizontalMovement.cs" />
      <Compile Include="Assets\scripts\InterestBar.cs" />
-     <Compile Include="Assets\scripts\RendererExtensions.cs" />
      <Compile Include="Assets\scripts\ReticleMovement.cs" />
      <Compile Include="Assets\scripts\Scoring.cs" />
-     <Compile Include="Assets\scripts\ScrollingScriptLoop.cs" />
      <Compile Include="Assets\scripts\Shutter.cs" />
      <None Include="Assets\PixelPerfect\Scripts\Internal\Resources\PixelPerfectShader.shader" />
      <None Include="Assets\PixelPerfect\README.txt" />
