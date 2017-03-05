@@ -1,11 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Gorilla States\GorillaHandlerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Gorilla States\GorillaEventFSM.cs">
     <Files>
-      <File FileName="Assets\Resources\config\habitat1Config.json" Line="100" Column="2" />
-      <File FileName="Assets\scripts\Gorilla States\GorillaEventData.cs" Line="28" Column="2" />
-      <File FileName="Assets\scripts\Gorilla States\GorillaEventFSM.cs" Line="59" Column="28" />
-      <File FileName="Assets\scripts\Gorilla States\GorillaHandlerMovement.cs" Line="68" Column="149" />
+      <File FileName="Assets\Resources\config\habitat1Config.json" Line="5" Column="38" />
+      <File FileName="Assets\scripts\Gorilla States\GorillaEventData.cs" Line="149" Column="1" />
+      <File FileName="Assets\scripts\Gorilla States\GorillaEventFSM.cs" Line="12" Column="32" />
+      <File FileName="Assets\scripts\Gorilla States\GorillaHandlerMovement.cs" Line="54" Column="1" />
+      <File FileName="Assets\scripts\ActiveProptracker.cs" Line="5" Column="39" />
+      <File FileName="Assets\scripts\Clock.cs" Line="15" Column="43" />
+      <File FileName="Assets\Resources\config\pullup.json" Line="5" Column="19" />
+      <File FileName="Assets\Resources\config\boulder.json" Line="69" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

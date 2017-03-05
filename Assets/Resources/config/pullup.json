@@ -1,0 +1,46 @@
+[
+	{"name":"completed"
+		
+	},
+		{"name":"default",
+		"anim":"walking all fours",
+		"targetSpeed":"run",
+		"targetPosition": "PULLUP",
+		"links":[
+			{"next":"pullup intro"}
+		]
+	},
+	{	"anim":"pullup intro",
+		"flipSprite": true,
+		"delay": 0.416,
+		"score": 100,
+		"links":[
+			{"next":"normal pullup"}
+		]
+	},
+{	"anim":"normal pullup",
+		"delay": 2,
+		"score":150,
+		"links":[
+			{"next":"pullup outro", "weight":3},
+			{"next":"pullup fast", "weight": 1}
+		]
+	},
+{	"anim":"pullup fast",
+		"delay": 2,
+		"hideSprite":"PULLUP BAR",
+		"score":300,
+		"links":[
+			{"next":"pullup outro"}
+	]
+},
+{	"anim":"pullup outro",
+		"delay": 1.63,
+		"showSprite":"PULLUP BAR",
+		"score":150,
+		"links":[
+			{"next":"completed"}
+		]
+	}
+
+]

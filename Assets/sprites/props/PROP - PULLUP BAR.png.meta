@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1d107cbfba704c043a1363ceed679dce
-timeCreated: 1488327335
+timeCreated: 1488423832
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -14,6 +14,8 @@ TextureImporter:
     21300014: PROP - PULLUP BAR_7
     21300016: PROP - PULLUP BAR_8
     21300018: PROP - PULLUP BAR_9
+    21300020: PROP - PULLUP BAR_10
+    21300022: PROP - PULLUP BAR_11
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -210,6 +212,32 @@ TextureImporter:
         serializedVersion: 2
         x: 130
         y: 129
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - PULLUP BAR_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 77
+        width: 37
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - PULLUP BAR_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 77
         width: 37
         height: 42
       alignment: 7

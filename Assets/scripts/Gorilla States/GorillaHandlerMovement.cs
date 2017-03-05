@@ -5,11 +5,15 @@ using System;
 public class GorillaHandlerMovement : GorillaEventLifecycle {
     public float speed = 0.01f;
 
-	bool flip= false;
-
+	public bool flip= false;
+	Sprite defaultSprite;
     float? movementWaypoint;
 
     GorillaEventFSM fsm;
+
+	void Start(){
+		defaultSprite = GetComponent<SpriteRenderer> ().sprite;
+	}
 
     public override void EndEvent(GorillaEventData data, GorillaEventFSM fsm)
     {
@@ -18,13 +22,16 @@ public class GorillaHandlerMovement : GorillaEventLifecycle {
 
     public override void StartEvent(GorillaEventData data, GorillaEventFSM fsm)
     {
+		if (data.swapSprite != null)
+			this.gameObject.GetComponent<SpriteRenderer> ().sprite = GameObject.Find (data.swapSprite).GetComponent<SpriteRenderer> ().sprite;
 		// flips the sprite if the animation requires it
-		if (data.flipSprite = true)
+		if (data.flipSprite)
 			flip = true;
 		else
 			flip = false;
 
-
+		if (data.verticalCorrection != null)
+			transform.position = new Vector3 (transform.position.x, transform.position.y + data.verticalCorrection);
         if (data.targetPosition == null) return;
 
         this.fsm = fsm;
@@ -63,6 +70,7 @@ public class GorillaHandlerMovement : GorillaEventLifecycle {
 	void FixedUpdate () {
 		if(flip)
 			transform.localScale = new Vector3(1f, transform.localScale.y);
+		
 		if (movementWaypoint.HasValue) {
 			transform.position = Vector3.MoveTowards (transform.position, (new Vector3 (movementWaypoint.Value, transform.position.y, transform.position.z)), speed * Time.deltaTime);
 			// causes issues with the gorilla lining up with the props; moveTowards puts them in an exact position without having to worry about overshooting
@@ -71,11 +79,13 @@ public class GorillaHandlerMovement : GorillaEventLifecycle {
             {            
                 // if we reached our target, end the event
                 fsm.EndEventAfter(0);
+				movementWaypoint = null;
             }
 
             // flips the gorillas sprite based on where the waypoint is and whether it will be moving or not. Also chooses a random walking animation
-            if (movementWaypoint.Value < transform.position.x)
-                transform.localScale = new Vector3(-1f, transform.localScale.y);
+			if (movementWaypoint.Value < transform.position.x) {
+				transform.localScale = new Vector3 (-1f, transform.localScale.y);
+			}
 			else
                 transform.localScale = new Vector3(1f, transform.localScale.y);
         }

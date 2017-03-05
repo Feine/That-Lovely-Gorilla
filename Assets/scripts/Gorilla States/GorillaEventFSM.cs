@@ -9,15 +9,26 @@ public class GorillaEventFSM : MonoBehaviour {
     // TODO: Remove this, it's just easier than watching the logs
     public Text currentEventLabel;
 
-    public TextAsset jsonConfigFile;
-    
-    public GorillaEventData[] events;
+    public TextAsset jsonIdles;
+	public TextAsset jsonBoulders;
+	public TextAsset jsonPullups;
 
+    public GorillaEventData[] idleEvents;
+	public GorillaEventData[] boulderEvents;
+	public GorillaEventData[] pullupEvents;
+
+
+	public bool toggleJsonList;
     private GorillaEventData currentEvent;
 
     private GorillaEventData previousEvent;
 
-    private Dictionary<string, GorillaEventData> eventsByName = new Dictionary<string, GorillaEventData>();
+    private Dictionary<string, GorillaEventData> eventsByNameIdle = new Dictionary<string, GorillaEventData>();
+	private Dictionary<string, GorillaEventData> eventsByNameBoulder = new Dictionary<string, GorillaEventData>();
+	private Dictionary<string, GorillaEventData> eventsByNamePullup = new Dictionary<string, GorillaEventData>();
+
+
+	private Dictionary<string, GorillaEventData> currentDictionary = new Dictionary<string, GorillaEventData>();
 
     internal Animator animator;
 
@@ -43,23 +54,22 @@ public class GorillaEventFSM : MonoBehaviour {
 
     public void Awake()
     {
-        string json = WrapToClass(jsonConfigFile.text, "events");
-        Debug.Log("Loading json:\n" + json, gameObject);
-        events = JsonUtility.FromJson<GorillaEventWrapper>(json).events;
-        foreach (GorillaEventData e in events)
-        {
-            e.Init();
-            if (e.name == null)
-            {
-                Debug.LogError("Unexpectedly empty event name: anim=" + e.anim + ", prefab=" + e.prefab);
-                continue;
-            }
-            if (eventsByName.ContainsKey(e.name))
-            {
-                Debug.LogWarning("Duplicated event name, overwriting the original: '" + e.name + "'");
-            }
-            eventsByName[e.name] = e;
-        }
+		string idles= WrapToClass(jsonIdles.text, "events");
+        Debug.Log("Loading json:\n" + idles, gameObject);
+		idleEvents = JsonUtility.FromJson<GorillaEventWrapper>(idles).events;
+
+		string boulder = WrapToClass(jsonBoulders.text, "events");
+		Debug.Log("Loading json:\n" + boulder, gameObject);
+		boulderEvents = JsonUtility.FromJson<GorillaEventWrapper>(boulder).events;
+
+		string pullup = WrapToClass(jsonPullups.text, "events");
+		Debug.Log("Loading json:\n" + pullup, gameObject);
+		pullupEvents = JsonUtility.FromJson<GorillaEventWrapper>(pullup).events;
+
+
+		initializeLists (idleEvents, eventsByNameIdle);
+		initializeLists (boulderEvents, eventsByNameBoulder);
+		initializeLists (pullupEvents, eventsByNamePullup);
     }
 
     public void Start()
@@ -68,17 +78,35 @@ public class GorillaEventFSM : MonoBehaviour {
 
         eventHandlers = GetComponents<GorillaEventLifecycle>();
         TriggerNextEvent();
-    }
 
+		if(currentEvent == null)
+		{
+			ScheduleEvent("default");
+		}
+    }
+	float timer = 0;
+	bool chosen =false;
     public void LateUpdate()
     {
+		if (timer < 5) {
+			timer += Time.deltaTime;
+			currentDictionary = eventsByNameIdle;
+		}
+		else {
+			if (!toggleJsonList && !chosen) {
+				toggleJsonList = true;
+				chooseProp ();
+				chosen = true;
+			}
+		}
+
         if (!float.IsInfinity(scheduledEventEnd) && scheduledEventEnd < Time.time)
         {
             TriggerNextEvent();
         }
         if (nextEventName != null)
         {
-            TriggerEvent(nextEventName);
+			TriggerEvent(nextEventName,currentDictionary);
             nextEventName = null;
         }
     }
@@ -95,31 +123,34 @@ public class GorillaEventFSM : MonoBehaviour {
         scheduledEventEnd = Time.time + seconds;
     }
 
-    private void TriggerEvent(string eventName)
+	private void TriggerEvent(string eventName, Dictionary<string, GorillaEventData> dict)
     {
-        Debug.Log("Executing event at " + Time.time + " : " + eventName);
-        if (eventsByName.ContainsKey(eventName))
-        {
-            if (currentEvent != null) currentEvent.EndEvent(this);
-            previousEvent = currentEvent;
-            currentEvent = eventsByName[eventName];
-            currentEvent.StartEvent(this);
-            currentEventLabel.text = "Current event: " + eventName 
-                + "\nPrev event: "+ (previousEvent==null?"":previousEvent.name)
-                + "\nAnim: " + currentEvent.anim 
-                + "\nPrefab: " + currentEvent.prefab;
-        }
-        else
-        {
-            Debug.LogError("Unknown event name at " + Time.time + " : '" + eventName + "'");
-            TriggerEvent("default");
-        }
+			Debug.Log ("Executing event at " + Time.time + " : " + eventName);
+			if (dict.ContainsKey (eventName)) {
+				if (currentEvent != null)
+					currentEvent.EndEvent (this);
+				previousEvent = currentEvent;
+				currentEvent = dict [eventName];
+				currentEvent.StartEvent (this);
+				currentEventLabel.text = "Current event: " + eventName
+				+ "\nPrev event: " + (previousEvent == null ? "" : previousEvent.name)
+				+ "\nAnim: " + currentEvent.anim
+				+ "\nPrefab: " + currentEvent.prefab;
+			if (currentEvent.name == "completed") {
+				toggleJsonList = false;
+				chosen = false;
+				timer = 0;
+			}
+			} else {
+				Debug.LogError ("Unknown event name at " + Time.time + " : '" + eventName + "'");
+				TriggerEvent ("default",dict);
+			}
     }
 
     public void TriggerRandomEvent()
     {
-        currentEvent = events[Random.Range(0, events.Length)];
-        ScheduleEvent(currentEvent.name);
+   //     currentEvent = events[Random.Range(0, events.Length)];
+    //    ScheduleEvent(currentEvent.name);
     }
 
     public void TriggerNextEvent()
@@ -138,6 +169,40 @@ public class GorillaEventFSM : MonoBehaviour {
             }
         }
     }
+
+	private void chooseProp()
+	{
+		int i = Random.Range (1, 3);
+		switch(i)  {
+		case 1:
+			currentDictionary = eventsByNameBoulder;
+			Debug.Log ("Chose Boulder");
+			break;
+		case 2:
+			currentDictionary = eventsByNamePullup;
+			Debug.Log ("Chose pull-up");
+			break;
+		}
+
+	}
+
+	// fills the various lists with events
+	private void initializeLists(GorillaEventData[] list, Dictionary<string, GorillaEventData> dict){
+		foreach (GorillaEventData e in list)
+		{
+			e.Init();
+			if (e.name == null)
+			{
+				Debug.LogError("Unexpectedly empty event name: anim=" + e.anim + ", prefab=" + e.prefab);
+				continue;
+			}
+			if (dict.ContainsKey(e.name))
+			{
+				Debug.LogWarning("Duplicated event name, overwriting the original: '" + e.name + "'");
+			}
+			dict[e.name] = e;
+		}
+	}
 }
 
 public class GorillaEventWrapper

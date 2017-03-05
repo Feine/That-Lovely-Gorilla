@@ -25,19 +25,35 @@ public class GorillaEventData {
     /// If non-null, the gorilla should play this animation.
     /// </summary>
     public string anim;
-
+	/// <summary>
+	/// Flips the sprite back the right way for certain animations
+	/// </summary>
 	public bool flipSprite;
+	/// <summary>
+	/// If non-null, hides the named prop sprite;
+	/// </summary>
+	public string hideSprite;
+	/// <summary>
+	/// if non-null, shows hidden sprite.
+	/// </summary>
+	public string showSprite;
     /// <summary>
     /// If non-null, the prefab with this name should be cloned. The prototype may optionally contain a component which subclasses GorillaEventLifecycle to handle
     /// lifecycle events. Otherwise, the default behavior is to play the animationName for this event (if any) and then immediately transition to a new event.
     /// </summary>
+
+	public string swapSprite;
+
     public string prefab;
 
     /// <summary>
     /// How long to hold the current state before ending it.
     /// </summary>
     public float delay = 0;
-
+	/// <summary>
+	/// adjusts the gorilla to allign with objects
+	/// </summary>
+	public float verticalCorrection;
     /// <summary>
     /// Updates the gorilla's desired position. Uses position names that should be defined elsewhere.
     /// A value of "RANDOM" should cause a random valid position to be chosen.
@@ -128,6 +144,8 @@ public class GorillaEventData {
     /// <param name="fsm"></param>
     internal void EndEvent(GorillaEventFSM fsm)
     {
+		if (showSprite != null)
+			GameObject.Find (showSprite).GetComponent<SpriteRenderer> ().enabled = true;
         foreach (GorillaEventLifecycle handler in fsm.eventHandlers)
         {
             handler.EndEvent(this, fsm);
@@ -139,6 +157,9 @@ public class GorillaEventData {
     /// <param name="fsm"></param>
     internal void StartEvent(GorillaEventFSM fsm)
     {
+		if (hideSprite != null)
+			GameObject.Find (hideSprite).GetComponent<SpriteRenderer> ().enabled = false;
+
         // If there's a fixed delay set, schedule the end of the event
         if (delay > 0)
         {

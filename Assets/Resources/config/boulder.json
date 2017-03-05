@@ -1,0 +1,70 @@
+[
+	{"name":"completed"
+		
+	},
+	{"name":"default",
+		"anim":"walking all fours",
+		"targetSpeed":"run",
+		"targetPosition": "BOULDER",
+		"links":[
+			{"next":"boulder dk", "weight":1},
+			{"next":"boulder tiny", "weight":1},
+			{"next":"boulder sailor", "weight":2},
+			{"next":"boulder crush start", "weight":5}
+		]
+	},
+	{"anim":"boulder dk",
+		"delay":1.3,
+		"score":300,
+		"links":[
+			{"next":"completed"}
+		]
+	},
+	{"anim":"boulder sailor",
+		"delay":2.17,
+		"score":300,
+		"links":[
+			{"next":"completed"}
+		]
+	},
+	{"anim":"boulder tiny",
+		"delay":1.72,
+		"score":300,
+		"links":[
+			{"next":"completed"}
+		]
+	},
+	{"anim":"boulder crush start",
+		"delay":1,
+		
+		"flipSprite": true,
+		"links":[
+			{"next":"boulder lift"}
+		]
+	},
+		{"anim":"boulder lift",
+		"delay":2,
+		"verticalCorrection":-0.03,
+		"swapSprite":"BOULDER",
+		"hideSprite":"BOULDER",
+		"score":300,
+		"links":[
+			{"next":"boulder crush"}
+		]
+	},
+		{"anim":"boulder crush",
+		"delay":0.52,
+		"score":300,
+		"showSprite":"BOULDER",
+		"links":[
+			{"next":"boulder crush end"}
+		]
+	},
+	{"anim":"boulder crush end",
+		"delay":1.72,
+		"verticalCorrection":0.03,
+		"links":[
+			{"next":"completed"}
+		]
+	}
+]

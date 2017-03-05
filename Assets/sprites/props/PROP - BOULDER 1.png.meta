@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0c4ad4444015eb4489c9d3fd420d00de
-timeCreated: 1488414225
+timeCreated: 1488665621
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,6 +22,75 @@ TextureImporter:
     21300030: PROP - BOULDER 1_15
     21300032: PROP - BOULDER 1_16
     21300034: PROP - BOULDER 1_17
+    21300036: PROP - BOULDER 1_18
+    21300038: PROP - BOULDER 1_19
+    21300040: PROP - BOULDER 1_20
+    21300042: PROP - BOULDER 1_21
+    21300044: PROP - BOULDER 1_22
+    21300046: PROP - BOULDER 1_23
+    21300048: PROP - BOULDER 1_24
+    21300050: PROP - BOULDER 1_25
+    21300052: PROP - BOULDER 1_26
+    21300054: PROP - BOULDER 1_27
+    21300056: PROP - BOULDER 1_28
+    21300058: PROP - BOULDER 1_29
+    21300060: PROP - BOULDER 1_30
+    21300062: PROP - BOULDER 1_31
+    21300064: PROP - BOULDER 1_32
+    21300066: PROP - BOULDER 1_33
+    21300068: PROP - BOULDER 1_34
+    21300070: PROP - BOULDER 1_35
+    21300072: PROP - BOULDER 1_36
+    21300074: PROP - BOULDER 1_37
+    21300076: PROP - BOULDER 1_38
+    21300078: PROP - BOULDER 1_39
+    21300080: PROP - BOULDER 1_40
+    21300082: PROP - BOULDER 1_41
+    21300084: PROP - BOULDER 1_42
+    21300086: PROP - BOULDER 1_43
+    21300088: PROP - BOULDER 1_44
+    21300090: PROP - BOULDER 1_45
+    21300092: PROP - BOULDER 1_46
+    21300094: PROP - BOULDER 1_47
+    21300096: PROP - BOULDER 1_48
+    21300098: PROP - BOULDER 1_49
+    21300100: PROP - BOULDER 1_50
+    21300102: PROP - BOULDER 1_51
+    21300104: PROP - BOULDER 1_52
+    21300106: PROP - BOULDER 1_53
+    21300108: PROP - BOULDER 1_54
+    21300110: PROP - BOULDER 1_55
+    21300112: PROP - BOULDER 1_56
+    21300114: PROP - BOULDER 1_57
+    21300116: PROP - BOULDER 1_58
+    21300118: PROP - BOULDER 1_59
+    21300120: PROP - BOULDER 1_60
+    21300122: PROP - BOULDER 1_61
+    21300124: PROP - BOULDER 1_62
+    21300126: PROP - BOULDER 1_63
+    21300128: PROP - BOULDER 1_64
+    21300130: PROP - BOULDER 1_65
+    21300132: PROP - BOULDER 1_66
+    21300134: PROP - BOULDER 1_67
+    21300136: PROP - BOULDER 1_68
+    21300138: PROP - BOULDER 1_69
+    21300140: PROP - BOULDER 1_70
+    21300142: PROP - BOULDER 1_71
+    21300144: PROP - BOULDER 1_72
+    21300146: PROP - BOULDER 1_73
+    21300148: PROP - BOULDER 1_74
+    21300150: PROP - BOULDER 1_75
+    21300152: PROP - BOULDER 1_76
+    21300154: PROP - BOULDER 1_77
+    21300156: PROP - BOULDER 1_78
+    21300158: PROP - BOULDER 1_79
+    21300160: PROP - BOULDER 1_80
+    21300162: PROP - BOULDER 1_81
+    21300164: PROP - BOULDER 1_82
+    21300166: PROP - BOULDER 1_83
+    21300168: PROP - BOULDER 1_84
+    21300170: PROP - BOULDER 1_85
+    21300172: PROP - BOULDER 1_86
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -113,7 +182,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 113
-        y: 1226
+        y: 1228
         width: 72
         height: 31
       alignment: 9
@@ -126,7 +195,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 189
-        y: 1226
+        y: 1228
         width: 72
         height: 31
       alignment: 9
@@ -139,7 +208,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 265
-        y: 1226
+        y: 1228
         width: 72
         height: 31
       alignment: 9
@@ -152,7 +221,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 341
-        y: 1226
+        y: 1228
         width: 72
         height: 31
       alignment: 9
@@ -165,7 +234,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 37
-        y: 1191
+        y: 1193
         width: 72
         height: 31
       alignment: 9
@@ -178,7 +247,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 113
-        y: 1191
+        y: 1193
         width: 72
         height: 31
       alignment: 9
@@ -191,7 +260,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 189
-        y: 1191
+        y: 1193
         width: 72
         height: 31
       alignment: 9
@@ -204,7 +273,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 265
-        y: 1191
+        y: 1193
         width: 72
         height: 31
       alignment: 9
@@ -217,7 +286,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 341
-        y: 1191
+        y: 1193
         width: 72
         height: 31
       alignment: 9
@@ -230,7 +299,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 37
-        y: 1156
+        y: 1158
         width: 72
         height: 31
       alignment: 9
@@ -243,7 +312,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 113
-        y: 1156
+        y: 1158
         width: 72
         height: 31
       alignment: 9
@@ -256,7 +325,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 189
-        y: 1156
+        y: 1158
         width: 72
         height: 31
       alignment: 9
@@ -269,7 +338,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 265
-        y: 1156
+        y: 1158
         width: 72
         height: 31
       alignment: 9
@@ -295,7 +364,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 37
-        y: 1121
+        y: 1123
         width: 72
         height: 31
       alignment: 9
@@ -308,7 +377,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 113
-        y: 1121
+        y: 1123
         width: 72
         height: 31
       alignment: 9
@@ -321,11 +390,908 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 189
-        y: 1121
+        y: 1123
         width: 72
         height: 31
       alignment: 9
       pivot: {x: 0.75, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_18
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1391
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1391
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1391
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_21
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1391
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_22
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1390
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_23
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1356
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_24
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1356
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_25
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1356
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1356
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_27
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1356
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1321
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_29
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1321
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_30
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1321
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_31
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1321
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_32
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1321
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1286
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_34
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1286
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_35
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1286
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_36
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1286
+        width: 68
+        height: 31
+      alignment: 9
+      pivot: {x: 0.65, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_37
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1049
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_38
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1049
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_39
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1049
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_40
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1049
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_41
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1049
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 993
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 993
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_44
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 993
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_45
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 993
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_46
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 993
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_47
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 937
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_48
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 937
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_49
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 937
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_50
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 937
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_51
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 937
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_52
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 881
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_53
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 881
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_54
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 881
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_55
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 881
+        width: 86
+        height: 51
+      alignment: 9
+      pivot: {x: 0.7, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_56
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 788
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_57
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 788
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_58
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 788
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_59
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 788
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_60
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 788
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_61
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 790
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_62
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 726
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_63
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 726
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_64
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 726
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_65
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 726
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_66
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 726
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_67
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 726
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_68
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 726
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_69
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 647
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_70
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 647
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_71
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 645
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_72
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 645
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_73
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 645
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_74
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 645
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_75
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 645
+        width: 65
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_76
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 512
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_77
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 512
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_78
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 512
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_79
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 512
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_80
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 512
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_81
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 512
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_82
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 404
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_83
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 404
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_84
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 404
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_85
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 404
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PROP - BOULDER 1_86
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 404
+        width: 92
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
